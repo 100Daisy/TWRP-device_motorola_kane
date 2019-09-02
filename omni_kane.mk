@@ -31,5 +31,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_DEVICE := kane
 PRODUCT_NAME := omni_kane
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := One Vision
+PRODUCT_MODEL := one vision
 PRODUCT_MANUFACTURER := motorola
