@@ -1,7 +1,7 @@
 /system         ext4        /dev/block/platform/13520000.ufs/by-name/system 
 /system_image   emmc        /dev/block/platform/13520000.ufs/by-name/system
 /data           ext4        /dev/block/platform/13520000.ufs/by-name/userdata
-/cache          ext4        /dev/block/platform/13520000.ufs/by-name/cache  	flags=backup=1;display="Preload"
+/cache          ext4        /dev/block/platform/13520000.ufs/by-name/cache          flags=backup=1;display="Preload"
 
 /boot           emmc        /dev/block/platform/13520000.ufs/by-name/boot   
 /recovery       emmc        /dev/block/platform/13520000.ufs/by-name/recovery  
@@ -11,6 +11,6 @@
 /vendor		ext4	    /dev/block/platform/13520000.ufs/by-name/vendor
 /vendor_image	emmc	    /dev/block/platform/13520000.ufs/by-name/vendor	    flags=backup=1;display="Vendor";flashimg
 
-/external_sd vfat	    /dev/block/mmcblk0p1 /dev/block/mmcblk0	            flags=display="Micro SDcard";storage;wipeingui;removable
-/usb-otg	    vfat	    /dev/block/sdf1 /dev/block/sdf		                flags=display="USB-OTG";storage;wipeingui;removable
+/external_sd    vfat	    /dev/block/mmcblk0p1 /dev/block/mmcblk0	            flags=display="Micro SDcard";storage;wipeingui;removable
+/usb-otg	vfat	    /dev/block/sdf1 /dev/block/sdf		            flags=display="USB-OTG";storage;wipeingui;removable
 
